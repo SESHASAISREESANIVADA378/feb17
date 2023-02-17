@@ -1,0 +1,23 @@
+/*Write a c program to print all those numbers from 1 upto n which are divisible by k and also print evensum and oddsum from those divisible.
+Example : 
+Input: 
+20  5
+Output:
+5 10 15 20
+30  20
+Explanation:
+That means 1 to 20 numbers which are divisible by 5 and among 5,10,15,20 evensum is 30 (10+20), oddsum is 20 (5+15).*/
+
+#include<stdio.h>
+main()
+{
+	int i,n,k,even,odd;
+	printf("enter the values");
+	scanf("%d%d",&n,&k);
+	  for(i=1;i<=n;i++)
+	  {
+	  	 if(i%k==0)
+	  	 printf("%d\t",i);
+	  }
+	  
+}
